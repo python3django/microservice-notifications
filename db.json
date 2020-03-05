@@ -1,0 +1,76 @@
+[
+{
+  "model": "api.template",
+  "pk": 1,
+  "fields": {
+    "title": "client_registration_email_confirmation",
+    "content": "\u0414\u043b\u044f \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u044b: {{ email }} \u043f\u0440\u0438 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f: {{ username }} \u043f\u0440\u043e\u0439\u0434\u0438\u0442\u0435 \u043f\u043e \u0441\u0441\u044b\u043b\u043a\u0435: {{ link }}",
+    "is_notification_sms": false,
+    "is_notification_email": true,
+    "created": "2020-02-10T18:55:38.057Z"
+  }
+},
+{
+  "model": "api.template",
+  "pk": 2,
+  "fields": {
+    "title": "client_registration_sms_confirmation",
+    "content": "\u041a\u043e\u0434 \u0434\u043b\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 {{ phone_key }}",
+    "is_notification_sms": true,
+    "is_notification_email": false,
+    "created": "2020-02-10T18:56:51.852Z"
+  }
+},
+{
+  "model": "api.template",
+  "pk": 3,
+  "fields": {
+    "title": "client_forgot_password_email",
+    "content": "\u0414\u043b\u044f \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0437\u0430\u0431\u044b\u0442\u043e\u0433\u043e \u043f\u0430\u0440\u043e\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f {{ username }} \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435 {{ email }} \u043f\u0440\u043e\u0439\u0434\u0438\u0442\u0435 \u043f\u043e \u0441\u0441\u044b\u043b\u043a\u0435\u00a0 {{ link }}",
+    "is_notification_sms": false,
+    "is_notification_email": true,
+    "created": "2020-02-10T18:57:39.446Z"
+  }
+},
+{
+  "model": "api.template",
+  "pk": 4,
+  "fields": {
+    "title": "client_forgot_password_sms",
+    "content": "\u041a\u043e\u0434 \u0434\u043b\u044f \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0430\u0440\u043e\u043b\u044f {{ phone_key }}",
+    "is_notification_sms": true,
+    "is_notification_email": false,
+    "created": "2020-02-10T18:58:23.926Z"
+  }
+},
+{
+  "model": "api.template",
+  "pk": 5,
+  "fields": {
+    "title": "client_invoice_email",
+    "content": "\u0421\u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d \u043d\u043e\u0432\u044b\u0439 \u0441\u0447\u0435\u0442:\r\n\u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f {{ username }}\u00a0\r\nemail: {{ email }}\r\nId \u0421\u0447\u0451\u0442\u0430 {{ invoice_id }}\r\n\u043d\u043e\u043c\u0435\u0440 \u0441\u0447\u0451\u0442\u0430: {{ invoice_number }}\r\n\u0414\u0430\u0442\u0430 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u0447\u0451\u0442\u0430 {{ invoice_date }}\r\n\u041e\u0442\u0447\u0451\u0442\u043d\u044b\u0439 \u043f\u0435\u0440\u0438\u043e\u0434: {{ reporting_period }}\r\n\u0421\u0441\u044b\u043b\u043a\u0430 \u043d\u0430 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442: {{ link }}",
+    "is_notification_sms": false,
+    "is_notification_email": true,
+    "created": "2020-02-10T18:59:36.657Z"
+  }
+},
+{
+  "model": "api.template",
+  "pk": 6,
+  "fields": {
+    "title": "client_account_successfully_deleted_email_sms",
+    "content": "\u0410\u043a\u043a\u0430\u0443\u043d\u0442 {{ username  }} \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0443\u0434\u0430\u043b\u0435\u043d",
+    "is_notification_sms": true,
+    "is_notification_email": true,
+    "created": "2020-02-20T19:37:26.777Z"
+  }
+},
+{
+  "model": "api.preference",
+  "pk": 1,
+  "fields": {
+    "email": "sender@mail.com",
+    "test_email": "recipient@mail.com"
+  }
+}
+]

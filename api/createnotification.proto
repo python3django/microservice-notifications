@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message RequestData {
+    string template = 1;
+    int32 microservice_id = 2;
+    int32 user_id = 3;
+    map<string, string> content = 4;
+}
+
+message ResponseData {
+    string successfully = 1;
+    string message_id = 2;
+}
+
+service CreateNotification {
+    rpc create_notification(RequestData) returns (ResponseData) {};
+}

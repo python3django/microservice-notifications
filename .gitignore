@@ -1,0 +1,14 @@
+*.log
+*.pot
+*.pyc
+
+__pycache__/
+.env/
+.vscode/
+media/
+static/
+
+.DS_Store
+db.sqlite3
+config/local_settings.py
+local_export.env
