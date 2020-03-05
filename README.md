@@ -44,6 +44,10 @@ python manage.py loaddata db.json
 ### Запуск приложения
 
 ```bash
+# Переходим в папку проекта
+cd microservice-notifications/
+# Запускаем виртуальное окружение
+source .env/bin/activate
 # Добавляем переменные виртуального окружения, необходимые для отправки уведомлений через
 # сервисы "Sendgrid" (email) и "Devino Telecom" (sms)
 source export.env
