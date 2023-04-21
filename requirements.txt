@@ -15,4 +15,4 @@ pytz==2019.3
 sendgrid==6.1.1
 singlemodeladmin==0.9
 six==1.14.0
-sqlparse==0.2.4
+sqlparse==0.4.4
